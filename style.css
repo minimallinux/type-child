@@ -1,0 +1,56 @@
+/**
+ * Theme Name:     Type Child
+ * Author:         P A McGowan
+ * Template:       type
+ * Text Domain:	   type-child
+ * Description:    Type is a beautiful, creative and responsive theme for bloggers, designers and businesses. Features responsive design, retina-ready assets, impressive hero image with parallax scrolling effect, custom logo, page templates and translation-ready code.
+ */
+/* diplomata-sc-regular - latin */
+@font-face {
+  font-family: 'Diplomata SC';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/diplomata-sc-v6-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Diplomata SC'), local('DiplomataSC-Regular'),
+       url('./fonts/diplomata-sc-v6-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/diplomata-sc-v6-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/diplomata-sc-v6-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/diplomata-sc-v6-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/diplomata-sc-v6-latin-regular.svg#DiplomataSC') format('svg'); /* Legacy iOS */
+}
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/roboto-v18-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Roboto'), local('Roboto-Regular'),
+       url('./fonts/roboto-v18-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('./fonts/roboto-v18-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/roboto-v18-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/roboto-v18-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('./fonts/roboto-v18-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
+body {
+font-family: 'Roboto';
+}
+.site-title {
+font-family: "Diplomata SC";
+}
+.site-credits {
+font-size: 0.9em!important;
+color: darkgrey;
+}
+.footer-copy {
+background:#2D2F39!important;
+}
+.footer-copy a {
+font-size: 0.9em!important;
+color: darkgrey;
+text-decoration: none;
+}
+.footer-copy a:hover {
+color: lightgrey;
+}
+
+
